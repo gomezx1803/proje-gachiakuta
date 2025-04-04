@@ -4,16 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Gachiakuta</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./src/css/style.css">
 </head>
 <body>
     <main>
         <div class="personagem">
             <picture>
-                <source srcset="n tem ainda" media="768px">
+                <source srcset="src/image/enjin.png" media="(min-width: 768px)">
+                <img src="src/image/enjin.png" alt="Enjin" width="1314px">
             </picture>
-            <div class="conteudo"></div>
+            <div class="conteudo">
+                <h2 class="nome-personagem">Enjin</h2>
+                <p class="descricao">Enjin é um homem alto, loiro e musculoso, com olhos amarelos e cicatriz na cabeça. Usa regata vermelha, casaco branco com o emblema dos Cleaners, calças largas, botas de combate, piercings, tatuagens no pescoço e peito, e uma gargantilha de comunicação. Apesar de suas habilidades, é humilde, calmo e bem-humorado. Chama a si mesmo de “zelador comum”. Seu nome, dado por alguém importante, vem de uma palavra antiga que significa “o predestinado”, título do qual se orgulha. Ele vê seu guarda-chuva como símbolo de união e esperança para os outros.</p>
+            </div>
         </div>
     </main>
-    <ul class="botao"></ul>
+    <ul class="botoes">
+        <li>
+            <button class="botao enjin">
+                <img src="src/image/enjin.png" alt="Ícone do Enjin" width="130px" height="130px">
+            </button>
+        </li>
+    </ul>
 </body>
 </html>
