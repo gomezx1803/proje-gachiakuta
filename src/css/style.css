@@ -1,6 +1,9 @@
 body {
     background-color: snow;
 }
+.personagem {
+    display: none;
+}
 
 * {
     margin: 0;
