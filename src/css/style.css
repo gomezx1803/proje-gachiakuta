@@ -14,15 +14,21 @@ main .personagem .imagem {
     object-fit: cover;
 }
 .conteudo {
-    background-color: blue;
     position: absolute;
     top: 0px;
-    left: 120px;
+    left: 70px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     height: 100vh;
-    max-width: 530px;
+    max-width: 430px;
+}
+.conteudo .nome-personagem {
+    color: white;
+    font-size: 50px;
+    font-family: changa;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
 
 
