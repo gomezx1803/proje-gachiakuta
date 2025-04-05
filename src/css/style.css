@@ -1,6 +1,15 @@
 body {
     background-color: snow;
 }
+
+main::after {
+    content: 'sssssssssssssssssssssss';
+    top: 0;
+    position: fixed;
+    width: ;
+background-color: black;
+
+}
 main .personagem {
     display: none;
     height: 100vh;
@@ -29,6 +38,13 @@ main .personagem .imagem {
     font-family: changa;
     font-weight: 400;
     margin-bottom: 10px;
+}
+.conteudo .descricao {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 25px;
 }
 
 
