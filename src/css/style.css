@@ -16,6 +16,13 @@ main .personagem .imagem {
 .conteudo {
     background-color: blue;
     position: absolute;
+    top: 0px;
+    left: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    max-width: 530px;
 }
 
 
